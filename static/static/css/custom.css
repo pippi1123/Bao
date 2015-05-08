@@ -1,0 +1,23 @@
+
+.navbar-brand{
+    color: #7ccc3e;
+    font-size:32px;
+}
+
+.jumbotron {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  color: #46a028;
+  background-color: #4e470d;
+}
+
+.col-md-4 p{
+    color: cornflowerblue;
+}
+
+.success{
+    color: #71c5ff;
+    font-size: 24px;
+    background: #805125;
+    text-align: center;   
+}

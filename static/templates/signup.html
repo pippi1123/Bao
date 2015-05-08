@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Bao is coming back on 4/27</h1>
+        <p>If you want to hold her and kiss her, you have to make reservation now.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Register here &raquo;</a></p>
+      </div>
+    </div>     
+{% endblock %}
+
+
+{% block content %}
+        <div class="col-md-4">
+          <h2>Signup Block one</h2>
+          <p>Link for Bao's pictures</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Signup Block two</h2>
+          <p>Link for Bao's videos</p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>Signup Block three</h2>
+          <p>Click here to sign up Bao's kissing list</p>
+          <p><a class="btn btn-info" href='{% url "thankyou" %}' role="button">Sign Up Here!</a></p>
+        </div>        
+
+{% endblock %}
+
+
+
+
+
+
+         
+        
